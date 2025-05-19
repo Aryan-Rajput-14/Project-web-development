@@ -1,0 +1,55 @@
+.search-page {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: auto;
+    }
+    
+    .search-page h1 {
+    text-align: center;
+    color: #00274C;
+    margin-bottom: 1.5rem;
+    }
+    
+    .filter-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+    }
+    
+    .filter-form input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    min-width: 220px;
+    }
+    
+    .results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    }
+    
+    .car-card {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 240px;
+    }
+    
+    .car-card img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    }
+    
+    .no-results {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #888;
+    }
